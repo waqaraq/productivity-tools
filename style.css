@@ -1,0 +1,21 @@
+
+:root{--navy:#17365d;--blue:#1f4e78;--green:#38761d;--ink:#243746;--muted:#667788;--line:#d9e1e8;--soft:#f5f8fa;--white:#fff;--max:980px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--white);line-height:1.6}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+header{background:var(--navy);color:var(--white)}
+.topbar{max-width:var(--max);margin:0 auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-size:18px;font-weight:700}nav a{color:#fff;margin-left:16px;font-size:14px}
+.hero{background:linear-gradient(180deg,#eef5fb 0%,#fff 100%);border-bottom:1px solid var(--line)}
+.hero-inner{max-width:var(--max);margin:0 auto;padding:64px 22px 52px}.hero h1{margin:0 0 14px;color:var(--navy);font-size:38px;line-height:1.15}
+.hero p{max-width:760px;margin:0;font-size:18px;color:#405466}
+.badges{margin-top:20px;display:flex;flex-wrap:wrap;gap:8px}.badge{background:#eaf2f8;color:var(--navy);border:1px solid #cfdce8;padding:5px 9px;border-radius:999px;font-size:13px;font-weight:700}
+main{max-width:var(--max);margin:0 auto;padding:38px 22px 58px}h1,h2,h3{color:var(--navy);line-height:1.25}h2{margin-top:34px}h3{margin-top:24px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin:24px 0}
+.card{border:1px solid var(--line);border-radius:8px;padding:18px;background:#fff}.card h3{margin-top:0;font-size:17px}
+.notice{background:#f4f8f1;border-left:4px solid var(--green);padding:14px 16px;margin:20px 0}.muted{color:var(--muted)}
+.btn{display:inline-block;background:var(--blue);color:#fff;padding:10px 14px;border-radius:6px;font-weight:700;margin:8px 8px 0 0}.btn:hover{text-decoration:none;background:#173f62}
+table{width:100%;border-collapse:collapse;margin:18px 0}th,td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}th{background:var(--soft);color:var(--navy)}
+footer{border-top:1px solid var(--line);background:#fafbfc}.footer-inner{max-width:var(--max);margin:0 auto;padding:22px;font-size:13px;color:var(--muted)}.footer-links a{margin-right:14px}
+ul,ol{padding-left:22px}
+@media(max-width:700px){.topbar{display:block}nav{margin-top:10px}nav a{margin:0 12px 0 0}.hero h1{font-size:30px}}
